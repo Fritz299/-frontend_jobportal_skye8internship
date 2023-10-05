@@ -1,0 +1,188 @@
+:root{
+    --primary:#2F2FA2;
+    --secondary:#5eb7eb;
+    --thirtiary:#FF9398;
+    --quad:#553d67;
+    --fith:#99738E;
+}
+body{
+    /* background: linear-gradient(0deg, var(--primary) 0%, var(--secondary) 100%);
+    background-repeat: no-repeat;
+    color: white; */
+   
+}
+
+/* navbar */
+.navbar{
+    height: 15vh;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    background-color: var(--secondary);
+    color: white;
+}
+
+/* hero section */
+.main .hero-section{
+    background: linear-gradient(rgb(203, 203, 221), rgb(30, 30, 209)), url('./assets/images/team-young-african-people.avif');
+    background-image:url('assets/images/team-young-african-people.avif');
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: inline-block;
+}
+
+.hero-section .container{
+    margin-top: 20vh;
+}
+
+/* reviews customer */
+.reviews .container{
+    /* background-color: blueviolet; */
+    height: 50vh;
+    padding: 4vh;
+}
+
+.reviews .container .text-center{
+    
+}
+
+.reviews .container .row .col{
+    justify-content: space-evenly;
+    border-radius: 2vh;
+    padding: 5vh;
+}
+/* categories section */
+.categories-section .container .row{
+   
+    padding: 1vh;
+    margin: 2vh;
+    height: 40vh;
+}
+
+    
+
+.row .sample-category .categories-block{
+    background-color:#690fbd;
+    /* border-radius: 50%; */
+    height: 20vh;
+    /* padding: 3vh; */
+}
+
+.row .sample-category .categories-block a{
+    padding-top: 4rem;
+    padding-left:1rem;
+    justify-content:baseline;
+    color: white;
+    /* background-color: #99738E; */
+
+}
+.row .sample-category .categories-block a i{
+    
+}
+/* about  */
+
+.about .container .row{
+
+}
+.about .container .row .sample .image-container{
+    position: relative;
+    display: inline-block;
+    width: 30vh;
+
+}
+
+.about .container .row .sample .image-container img{
+    border-top-left-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+}
+
+.image-container .about-info{
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color: #690fbd;
+    color: white;
+    padding: 10px 20px;
+    font-size: 10px;
+    text-align: center;
+    border-radius:4vh ;
+    width: 25vh;
+
+}
+
+.about .container .row .text-block{
+    background-color: #5eb7eb;
+    color: white;
+}
+
+.about .container .row .sample .custom-text-block{
+    /* background-color: #24a9d1; */
+}
+
+
+.about .container .row .instagram{
+}
+
+
+.about .container .row .sample .intagram-block{
+    height: 100%;
+    background-color: #690fbd;
+    border-top-right-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+}
+.about .container .row .sample .intagram-block .instagram-block-text{
+    /* background-color: #ede6f3; */
+    padding-top:20vh ;
+
+}
+
+.about .container .row .sample .intagram-block .instagram-block-text a{
+    color: white;
+    margin-top: 20vh;
+    margin: 20vh;
+}
+
+
+
+/* featured jobs */
+
+.featured-jobs .container{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.featured-jobs .container .logo{
+    border-radius: 1vh;
+    padding: 2vh;
+    margin-top: 1vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+
+.featured-jobs .container .logo .job{
+
+}
+.job .row .btn-in .btn{
+    background-color:#690fbd;
+    color: white;
+}
+
+.job .row .btn{
+    color: white;
+    background-color: orangered;
+}
+
+/* footer */
+.card-footer{
+    background-color: var(--secondary);
+    height: 10vh;
+}
+.card-footer .container{
+   padding-top: 4vh;
+    justify-content: center;
+}
